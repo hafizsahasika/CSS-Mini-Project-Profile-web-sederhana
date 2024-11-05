@@ -1,0 +1,145 @@
+            body{
+                background-color: wheat;
+                padding: 0%;
+                margin: 0%;
+                font-family: "Roboto Slab", serif;
+            }
+            header{
+                background: rgb(131,58,180);
+                background: linear-gradient(
+                    90deg,
+                    rgba(131,58,180,1)0%,
+                    rgba(253,29,29,1)50%,
+                    rgba(252,176,69,1)100%
+                );
+                padding: 20px;
+            }
+            .headerContainer{
+                display: flex;
+                max-width: 900px;
+                margin: 0 auto;
+            }
+            .contentHolder{
+                max-width: 900px;
+                margin: 0 auto;
+            }
+            .imgProfile{
+                width: 200px;
+                height: 200px;
+                border: 5px solid white;
+                border-radius: 100px;
+                box-shadow: 5px 5px 10px 2px rgb(84, 43, 111, 0.485);
+                transition: all;
+                transition-duration: 1s;
+            }
+            .imgProfile.hover{
+                margin-left: -10px;
+
+            }
+            .holderImgProfile{
+                flex: 2;
+                text-align: center;
+            }
+            .holderDetailProfile{
+                flex: 2;
+            }
+            .nameProfile{
+                font-size: 48px;
+                color: white;
+                font-weight: 600;
+            }
+            .tittleProfile{
+                color: white;
+            }
+            .button{
+                border: none;
+                padding: 5px 10px;
+                margin: 10px 10px 0 0;
+                font-family: "Roboto Slab", serif;
+                border-radius: 40px;
+                font-size: 11px;
+                font-weight: 600;
+                transition: all;
+                transition-duration: 1s;
+            }
+            .button.download{
+                background-color: bisque;
+                color: black;
+                cursor: pointer;
+            }
+            .button.hire{
+                background-color: #37bc9b;
+                color: rgb(255, 255, 255);
+                cursor: pointer;
+            }
+            .button:hover{
+                transform: scale(1.1);
+            }
+            .barContainer{
+                width: 100%;
+                height: 20px;
+                border-radius: 20px;
+                background-color: rgb(235, 233, 233);
+                position: relative;
+            }
+            .barFilling{
+                position: absolute;
+                height: 20px;
+                border-radius: 20px;
+                transition: all;
+                transition-duration: 1s;
+            }
+            .green{
+                background-color: green;
+                width: 90%;
+            }
+            .orange{
+                background-color: orange;
+                width: 90%;
+            }
+            .yellow{
+                background-color: yellow;
+                width: 40%;
+            }
+            .subContent{
+                font-size: 18px;
+                font-weight: 500;
+                color: rgb(53,53,53);
+            }
+            h3{
+                font-weight: 600;
+            }
+            .skillBar{
+                display: block;
+                margin: 10px 0;
+            }
+            ul{
+                display: block;
+                list-style-type: disc;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                padding-inline-start: 40px;
+                unicode-bidi: isolate
+            }
+              .subLastProject {
+                font-size: 16px;
+                color: rgb(66, 66, 66);
+                font-weight: 400;
+              }
+              footer {
+                background-color: rgb(76, 75, 75);
+                text-align: center;
+              }
+            
+              .footerHolder {
+                max-width: 900px;
+                margin: 0 auto;
+                padding: 30px;
+              }
+              .footerName {
+                font-size: 20px;
+                font-weight: 400;
+                color: white;
+              }
